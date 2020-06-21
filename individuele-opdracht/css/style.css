@@ -1,0 +1,531 @@
+                                    .clear {
+                                        clear: both;
+                                    }
+                                    
+                                    body.dark {
+                                        background-color: black;
+                                    }
+                                    
+                                    nav.dark {
+                                        background-color: blue;
+                                    }
+                                    
+                                    .pink-overlay.dark {
+                                        background-image: linear-gradient(rgb(99, 99, 194), blue, transparent);
+                                    }
+                                    
+                                    nav ul li a.dark {
+                                        color: white;
+                                    }
+                                    
+                                    .accordion-playlist.dark {
+                                        background-color: black;
+                                    }
+                                    
+                                    .switch {
+                                        height: 8%;
+                                        width: 8%;
+                                        margin-left: 90%;
+                                    }
+                                    
+                                    nav {
+                                        /*position: fixed;*/
+                                        border-bottom-right-radius: 50px;
+                                        border-bottom-left-radius: 50px;
+                                        height: 150px;
+                                        width: 90vw;
+                                        background: white;
+                                        position: fixed;
+                                        left: 6%;
+                                        z-index: 1
+                                    }
+                                    
+                                    nav ul {
+                                        margin: 10px 0px 0px 0px;
+                                        list-style: none;
+                                        font-weight: 900;
+                                    }
+                                    
+                                    nav ul li a {
+                                        float: left;
+                                        margin: 0px 0px 0px 350px;
+                                        list-style: none;
+                                        font-size: 2em;
+                                        color: #CC0085;
+                                        text-decoration: none;
+                                        font-family: "Montserrat";
+                                    }
+                                    
+                                    .logo {
+                                        margin-top: -70px;
+                                        margin-left: 80px;
+                                        width: 40px;
+                                        height: 40px;
+                                    }
+                                    
+                                    .grid-wrap {
+                                        width: 1080px;
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    main {
+                                        width: 100vw;
+                                        height: 100vh;
+                                        background-image: url(../img/meisje-laptop.jpeg);
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        background-color: rgba(255, 175, 227, 0.5);
+                                    }
+                                    
+                                    .pink-overlay {
+                                        background-image: linear-gradient(#FFAFE3, #CC0085, transparent);
+                                        height: 100vh;
+                                        opacity: 60%;
+                                    }
+                                    
+                                    .grid-wrap h1 {
+                                        color: white;
+                                        opacity: 100%;
+                                        padding-top: 200px;
+                                        font-size: 5em;
+                                        text-align: left;
+                                        font-family: 'playfair-display';
+                                        font-weight: 'bold';
+                                        line-height: 1.1;
+                                    }
+                                    
+                                    .grid-wrap p {
+                                        color: white;
+                                        font-size: 1.7em;
+                                        margin-top: 100px;
+                                        opacity: 100%;
+                                        font-family: "Montserrat";
+                                        font-weight: 'bold';
+                                    }
+                                    
+                                    .box {
+                                        width: 100vw;
+                                        height: 400px;
+                                    }
+                                    
+                                    #boxje1 {
+                                        background-color: #F4F2FF;
+                                        border-radius: 20px;
+                                        width: 450px;
+                                        height: 590px;
+                                        margin-left: 300px;
+                                        margin-top: -70px;
+                                        position: absolute;
+                                    }
+                                    
+                                    #boxje2 {
+                                        background-color: #F4F2FF;
+                                        border-radius: 20px;
+                                        width: 450px;
+                                        height: 590px;
+                                        margin-left: 1000px;
+                                        margin-top: -70px;
+                                        position: absolute;
+                                    }
+                                    
+                                    #boxje3 {
+                                        background-color: #F4F2FF;
+                                        border-radius: 20px;
+                                        width: 450px;
+                                        height: 590px;
+                                        margin-left: 1600px;
+                                        margin-top: -70px;
+                                        position: absolute;
+                                    }
+                                    
+                                    .speel {
+                                        margin-top: 30%;
+                                        margin-left: 27%;
+                                    }
+                                    
+                                    .codeer {
+                                        margin-top: 33%;
+                                        margin-left: 30%;
+                                    }
+                                    
+                                    .leer {
+                                        margin-top: 30%;
+                                        margin-left: 27%;
+                                    }
+                                    
+                                    .leerfont {
+                                        text-decoration: none;
+                                        font-size: 2em;
+                                        color: #CC0085;
+                                        margin-top: 50px;
+                                        margin-left: 40px;
+                                        font-family: "Montserrat";
+                                        font-weight: bold;
+                                        ;
+                                    }
+                                    
+                                    .codeerfont {
+                                        text-decoration: none;
+                                        font-size: 2em;
+                                        color: #CC0085;
+                                        margin-top: 50px;
+                                        margin-left: 30px;
+                                        font-family: "Montserrat";
+                                        font-weight: bold;
+                                        ;
+                                    }
+                                    
+                                    .speelfont {
+                                        text-decoration: none;
+                                        font-size: 2em;
+                                        color: #CC0085;
+                                        margin-top: 50px;
+                                        margin-left: 50px;
+                                        font-family: "Montserrat";
+                                        font-weight: bold;
+                                    }
+                                    
+                                    .ui-accordion-header-active {
+                                        background: grey;
+                                    }
+                                    
+                                    .accordion-playlist {
+                                        margin-top: 170px;
+                                        margin-bottom: 170px;
+                                    }
+                                    
+                                    .accordion-playlist h1 {
+                                        text-decoration: none;
+                                        font-size: 1.3em;
+                                        color: #CC0085;
+                                        margin-top: 0%;
+                                        margin-left: 12%;
+                                        font-family: "Montserrat";
+                                        font-weight: bold;
+                                        padding-bottom: 3%;
+                                    }
+                                    
+                                    button.accordion {
+                                        width: 75%;
+                                        margin-left: 12%;
+                                        background-color: white;
+                                        outline: 3px solid #FFAFE3;
+                                        border: none;
+                                        text-align: left;
+                                        padding: 1% 1%;
+                                        font-size: 1.3em;
+                                        font-weight: bold;
+                                        color: #FFAFE3;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .video p {
+                                        text-decoration: none;
+                                        font-size: 1.3em;
+                                        color: white;
+                                        margin-top: 10px;
+                                        margin-left: 510px;
+                                        font-family: "Montserrat";
+                                        font-weight: bold;
+                                        padding-bottom: 3%;
+                                        position: relative;
+                                        z-index: 99999999;
+                                    }
+                                    
+                                    .video {
+                                        max-height: 0;
+                                        overflow: hidden;
+                                        transition: max-height 0.2s ease-in-out;
+                                    }
+                                    
+                                    #video-wrap .video-js .vjs-play-progress:before {
+                                        color: #FFAFE3;
+                                        font-size: 1.5em;
+                                    }
+                                    
+                                    #video-wrap {
+                                        height: 300px;
+                                        width: auto;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .video-player {
+                                        height: auto;
+                                        max-width: 400px;
+                                        background: black;
+                                        margin-left: 900px;
+                                        box-shadow: 0px 5px 10px 0px rgba(0, 0, 100, 60);
+                                    }
+                                    
+                                    #player2 {
+                                        margin-top: 200px;
+                                        transform: translate(-50%, -50%) scale(2)
+                                    }
+                                    
+                                    .video-js .vjs-big-play-button {
+                                        border: 0;
+                                        background: transparent;
+                                        border-radius: 0;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                    }
+                                    
+                                    #tutorials-wrap .video-js .vjs-play-progress:before {
+                                        color: #F39142;
+                                        font-size: 1.5em;
+                                    }
+                                    
+                                    .done {
+                                        position: absolute;
+                                        width: 100px;
+                                        height: 100px;
+                                        background: #F39142;
+                                        border-radius: 50%;
+                                        transform: translate(-50%, -50%);
+                                        top: 50%;
+                                        left: 50%;
+                                        z-index: 9999;
+                                    }
+                                    
+                                    .support h1 {
+                                        text-decoration: none;
+                                        font-size: 1.3em;
+                                        color: #CC0085;
+                                        margin-top: 0%;
+                                        margin-left: 12%;
+                                        font-family: "Montserrat";
+                                        font-weight: bold;
+                                        padding-bottom: 3%;
+                                    }
+                                    
+                                    .support p {
+                                        text-decoration: none;
+                                        font-size: 1.8em;
+                                        color: #CC0085;
+                                        margin-top: 0%;
+                                        margin-left: 12%;
+                                        text-align: left;
+                                        font-family: "Montserrat";
+                                        font-weight: bold;
+                                        padding-bottom: 3%;
+                                    }
+                                    
+                                    .box-container4 {
+                                        margin: 0 auto;
+                                        background: white;
+                                        width: 100vw;
+                                    }
+                                    
+                                    figure {
+                                        background: #F4F2FF;
+                                        max-width: 1100px;
+                                        max-height: 600px;
+                                        display: block;
+                                        margin: 10em;
+                                        padding: 1em 0 1em 0;
+                                        text-align: center;
+                                    }
+                                    
+                                    p {
+                                        color: #FFAFE3;
+                                        font-family: 'Montserrat';
+                                        font-weight: bold;
+                                        margin-top: 50px;
+                                        padding: .5em;
+                                        font-size: 2.5em;
+                                        text-align: center;
+                                    }
+                                    
+                                    blockquote {
+                                        color: #CC0085;
+                                        font-family: 'Montserrat';
+                                        font-weight: bold;
+                                        margin-top: 50px;
+                                        padding: .5em;
+                                        font-size: 2.5em;
+                                        text-align: center;
+                                    }
+                                    
+                                    h2 {
+                                        background-color: #CC0085;
+                                        border-radius: 15px;
+                                        margin-left: 700px;
+                                        margin-right: 140px;
+                                        color: white;
+                                        font-family: 'Montserrat';
+                                        font-weight: bold;
+                                        margin-top: 50px;
+                                        padding: .5em;
+                                        font-size: 2.5em;
+                                        text-align: center;
+                                    }
+                                    
+                                    .icon1 {
+                                        background-image: url(../img/lady1.jpg);
+                                        height: 400px;
+                                        width: 400px;
+                                        border-radius: 50%;
+                                        float: left;
+                                        margin-left: 150px;
+                                        margin-top: 50px;
+                                        background-repeat: no-repeat;
+                                    }
+                                    
+                                    .icon2 {
+                                        background-image: url(../img/boyke.jpg);
+                                        height: 400px;
+                                        width: 400px;
+                                        border-radius: 50%;
+                                        float: left;
+                                        margin-left: 150px;
+                                        margin-top: 50px;
+                                        background-repeat: no-repeat;
+                                    }
+                                    
+                                    .icon3 {
+                                        background-image: url(../img/truus.jpg);
+                                        height: 400px;
+                                        width: 400px;
+                                        border-radius: 50%;
+                                        float: left;
+                                        margin-left: 150px;
+                                        margin-top: 50px;
+                                        background-repeat: no-repeat;
+                                    }
+                                    
+                                    .icon4 {
+                                        background-image: url(../img/menneke.png);
+                                        height: 400px;
+                                        width: 400px;
+                                        border-radius: 50%;
+                                        float: left;
+                                        margin-left: 150px;
+                                        margin-top: 50px;
+                                        background-repeat: no-repeat;
+                                    }
+                                    
+                                    footer {
+                                        margin-top: 2500px;
+                                        background-image: url(../img/expert\ image@2x.png);
+                                        background-size: cover;
+                                        width: 100vw;
+                                        height: 800px;
+                                        background-repeat: no-repeat;
+                                    }
+                                    
+                                    footer .pink-overlay {
+                                        height: 800px;
+                                        background-color: rgba(204, 0, 133, 60);
+                                        opacity: 80%;
+                                    }
+                                    
+                                    footer h1 {
+                                        color: white;
+                                        font-family: 'Playfair Display';
+                                        font-weight: bold;
+                                        margin: 0 auto;
+                                        padding: .5em;
+                                        font-size: 2.5em;
+                                        text-align: center;
+                                    }
+                                    
+                                    footer p {
+                                        color: white;
+                                        font-family: 'Montserrat';
+                                        font-weight: bold;
+                                        margin-top: 50px;
+                                        padding: .5em;
+                                        font-size: 2.5em;
+                                        text-align: center;
+                                        float: left;
+                                    }
+                                    
+                                    footer h2 {
+                                        height: 60px;
+                                        width: 150px;
+                                        padding-top: 30px;
+                                        margin-top: 200px;
+                                        margin-left: 400px;
+                                        font-family: 'Playfair Display';
+                                        font-weight: bold;
+                                        padding: .5em;
+                                        font-size: 1.5em;
+                                        text-align: center;
+                                        color: white;
+                                        background: #CC0085;
+                                        opacity: 100%;
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        .grid-wrap h1 {
+                                            font-size: 3em;
+                                        }
+                                        .grid-wrap p {
+                                            font-size: 1em;
+                                            margin-left: 100px;
+                                            text-align: left;
+                                            float: left;
+                                        }
+                                        #boxje1 {
+                                            width: 260px;
+                                            height: 290px;
+                                            margin-left: 20px;
+                                        }
+                                        #boxje2 {
+                                            width: 260px;
+                                            height: 290px;
+                                            margin-left: 310px;
+                                        }
+                                        #boxje3 {
+                                            width: 260px;
+                                            height: 290px;
+                                            margin-left: 610px;
+                                        }
+                                        .video p {
+                                            margin-top: 10px;
+                                            margin-left: -200px;
+                                        }
+                                        #player2 {
+                                            margin-top: 0px;
+                                            transform: translate(-50%, -50%) scale(0.3)
+                                        }
+                                        #video-wrap {
+                                            height: auto;
+                                            width: 300px;
+                                            margin-bottom: 10px;
+                                        }
+                                        .support p {
+                                            font-size: 1.3em;
+                                        }
+                                        figure {
+                                            max-width: 800px;
+                                            max-height: 900px;
+                                        }
+                                        p {
+                                            color: #FFAFE3;
+                                            font-family: 'Montserrat';
+                                            font-weight: bold;
+                                            margin-top: 20px;
+                                            padding: .5em;
+                                            font-size: 2em;
+                                            text-align: center;
+                                        }
+                                        blockquote {
+                                            color: #CC0085;
+                                            font-family: 'Montserrat';
+                                            font-weight: bold;
+                                            margin-top: 70px;
+                                            padding: 30px;
+                                            font-size: 2em;
+                                            text-align: center;
+                                        }
+                                        h2 {
+                                            background-color: #CC0085;
+                                            border-radius: 15px;
+                                            margin-left: 200px;
+                                            margin-right: 140px;
+                                            margin-top: 20px;
+                                            font-size: 2em;
+                                        }
+                                    }
